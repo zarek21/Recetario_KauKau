@@ -1,0 +1,111 @@
+/* En style.css */
+
+/* Estilos generales para toda la página */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  line-height: 1.6;
+  background-color: #f8f9fa;
+  color: #333;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #5a3e36; /* Un color café sutil */
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #e0e0e0;
+  margin: 30px 0;
+}
+
+/* Contenedor de los botones de receta */
+#recipe-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Espacio entre botones */
+}
+
+/* Estilo para cada botón de receta */
+.recipe-button {
+  background-color: #8d6e63; /* Color café claro */
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.2s;
+}
+
+.recipe-button:hover {
+  background-color: #6d4c41; /* Un poco más oscuro al pasar el mouse */
+}
+
+/* Contenedor de la receta seleccionada */
+#selected-recipe-container {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05); /* Sombra suave */
+  margin-top: 20px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/* Estilos para la sección de la calculadora */
+.calculator {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 15px;
+  flex-wrap: wrap;
+}
+
+.calculator label {
+  font-weight: bold;
+}
+
+/* Campo para poner el número */
+.calculator input[type="number"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 70px;
+  font-size: 16px;
+}
+
+/* Botón de "Calcular" */
+#calculate-btn {
+  background-color: #4caf50; /* Verde */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#calculate-btn:hover {
+  background-color: #45a049;
+}
+
+/* Contenedor para la receta calculada */
+#calculated-recipe {
+  margin-top: 20px;
+  background-color: #e8f5e9; /* Un fondo verde muy claro */
+  padding: 15px;
+  border-radius: 5px;
+  border-left: 5px solid #4caf50;
+}
