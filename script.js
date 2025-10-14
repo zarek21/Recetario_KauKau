@@ -63,6 +63,18 @@ const recipes = [
       { name: "Conservante", amount: 3, unit: "gr" },
     ],
   },
+  {
+    id: 5,
+    name: "Bálsamo Mamalon",
+    servings: 3,
+    baseAmount: 8,
+    ingredients: [
+      { name: "Cera de candelilla", amount: 5, unit: "gr" },
+      { name: "Karité", amount: 7, unit: "gr" },
+      { name: "Aceite", amount: 12, unit: "gr" },
+      { name: "Vit. E", amount: 5, unit: "gr" },
+    ],
+  },
 ];
 
 // Busca en el HTML el elemento donde pondremos la lista de botones.
@@ -81,12 +93,14 @@ function displaySelectedRecipe(recipeId) {
 
   // Construimos el HTML. Ahora incluye un input para la cantidad y un botón.
   // También hemos añadido un nuevo div con id="calculated-recipe" para el resultado.
-  let recipeHtml = `
-    <h3>${selectedRecipe.name}</h3>
-    <p><strong>Ingredientes para 1 lote:</strong></p>
-    <ul>
-  `;
 
+  let recipeHtml = `
+  <h3>${selectedRecipe.name}</h3>
+  <p><strong>Ingredientes para ${selectedRecipe.servings} ${
+    selectedRecipe.servings > 1 ? "lotes" : "lote"
+  }:</strong></p>
+  <ul>
+`;
   selectedRecipe.ingredients.forEach((ingredient) => {
     recipeHtml += `<li>${ingredient.name}: ${ingredient.amount} ${ingredient.unit}</li>`;
   });
