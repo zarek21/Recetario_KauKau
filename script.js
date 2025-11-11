@@ -112,6 +112,22 @@ const recipes = [
       { name: "Conservante", amount: 1, unit: "ml" },
     ],
   },
+
+  {
+    id: 7,
+    name: "Pure Balance Mist", // Nombre corregido
+    servings: 1,
+    baseAmount: 110,
+    ingredients: [
+      { name: "Hamamelis", amount: 35, unit: "ml" },
+      { name: "Extracto de té verde", amount: 5.5, unit: "ml" },
+      { name: "Niacinamida", amount: 3.3, unit: "ml" },
+      { name: "Glicerina vegetal", amount: 2.2, unit: "ml" },
+      { name: "Árbol de té", amount: 0.33, unit: "ml" },
+      { name: "Agua destilada", amount: 64, unit: "ml" },
+      { name: "Conservante", amount: 1, unit: "ml" },
+    ],
+  },
 ];
 
 // Busca en el HTML el elemento donde pondremos la lista de botones.
