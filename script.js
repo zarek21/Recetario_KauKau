@@ -15,6 +15,7 @@ const recipes = [
       { name: "Vit. E", amount: 2, unit: "gr" },
     ],
   },
+
   {
     id: 2,
     name: "Exfoliante",
@@ -29,6 +30,7 @@ const recipes = [
       { name: "Sal EPSON / Azúcar", amount: 110, unit: "gr" },
     ],
   },
+
   {
     id: 3,
     name: "Jabón Batido",
@@ -45,6 +47,7 @@ const recipes = [
       { name: "Aceite", amount: 13, unit: "gr" },
     ],
   },
+
   {
     id: 4,
     name: "Espresso Scrub",
@@ -63,6 +66,7 @@ const recipes = [
       { name: "Conservante", amount: 3, unit: "gr" },
     ],
   },
+
   {
     id: 5,
     name: "Bálsamo Mamalon",
@@ -75,6 +79,7 @@ const recipes = [
       { name: "Vit. E", amount: 5, unit: "gr" },
     ],
   },
+
   {
     id: 6,
     name: "Skin Nectar",
@@ -89,6 +94,22 @@ const recipes = [
       { name: "Centella Hidroglicolica", amount: 1.8, unit: "ml" },
       { name: "Xantana", amount: 0.3, unit: "ml" },
       { name: "Conservante", amount: 0.3, unit: "ml" }, // Corregí "Consevante"
+    ],
+  },
+
+  {
+    id: 7,
+    name: "Glow Essence Mist",
+    servings: 1,
+    baseAmount: 110,
+    ingredients: [
+      { name: "Hamamelis", amount: 35, unit: "ml" },
+      { name: "Extracto de té verde", amount: 5.5, unit: "ml" },
+      { name: "Niacinamida", amount: 3.3, unit: "ml" },
+      { name: "Glicerina vegetal", amount: 2.2, unit: "ml" },
+      { name: "Árbol de té", amount: 0.33, unit: "ml" }, // Puse el acento
+      { name: "Agua destilada", amount: 64, unit: "ml" },
+      { name: "Conservante", amount: 1, unit: "ml" },
     ],
   },
 ];
