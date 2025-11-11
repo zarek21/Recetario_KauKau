@@ -86,12 +86,12 @@ const recipes = [
     servings: 1,
     baseAmount: 30, // Basado en el título "30 ml"
     ingredients: [
-      { name: "Agua bidestilada", amount: 24.5, unit: "ml" },
+      { name: "Agua bidestilada", amount: 25.3, unit: "ml" },
       { name: "AH alto", amount: 1.2, unit: "ml" },
       { name: "AH bajo", amount: 0.06, unit: "ml" },
       { name: "Niacinamida", amount: 1.5, unit: "ml" },
       { name: "Regaliz", amount: 0.6, unit: "ml" },
-      { name: "Centella Hidroglicolica", amount: 1.8, unit: "ml" },
+      { name: "Centella Hidroglicolica", amount: 1, unit: "ml" },
       { name: "Xantana", amount: 0.3, unit: "ml" },
       { name: "Conservante", amount: 0.3, unit: "ml" }, // Corregí "Consevante"
     ],
@@ -105,16 +105,17 @@ const recipes = [
     ingredients: [
       { name: "Hamamelis", amount: 35, unit: "ml" },
       { name: "Extracto de té verde", amount: 5.5, unit: "ml" },
-      { name: "Niacinamida", amount: 3.3, unit: "ml" },
-      { name: "Glicerina vegetal", amount: 2.2, unit: "ml" },
+      { name: "Niacinamida", amount: 2, unit: "ml" },
+      { name: "Glicerina vegetal", amount: 2, unit: "ml" },
       { name: "Árbol de té", amount: 0.33, unit: "ml" }, // Puse el acento
-      { name: "Agua destilada", amount: 64, unit: "ml" },
+      { name: "Agua destilada", amount: 63.5, unit: "ml" },
       { name: "Conservante", amount: 1, unit: "ml" },
       { name: "Aceite de rosa mosqueta", amount: 5, unit: "ml" },
       { name: "Vitamina E", amount: 1, unit: "ml" },
       { name: "Mica perlada dorada", amount: 1, unit: "gr" },
       { name: "Centella hidroglicolica", amount: 3, unit: "ml" },
       { name: "Pantenol", amount: 2, unit: "ml" },
+      { name: "Hidrolato de rosas", amount: 25, unit: "ml" },
     ],
   },
 
