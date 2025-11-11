@@ -75,6 +75,22 @@ const recipes = [
       { name: "Vit. E", amount: 5, unit: "gr" },
     ],
   },
+  {
+    id: 6,
+    name: "Skin Nectar",
+    servings: 1,
+    baseAmount: 30, // Basado en el título "30 ml"
+    ingredients: [
+      { name: "Agua bidestilada", amount: 24.5, unit: "ml" },
+      { name: "AH alto", amount: 1.2, unit: "ml" },
+      { name: "AH bajo", amount: 0.06, unit: "ml" },
+      { name: "Niacinamida", amount: 1.5, unit: "ml" },
+      { name: "Regaliz", amount: 0.6, unit: "ml" },
+      { name: "Centella Hidroglicolica", amount: 1.8, unit: "ml" },
+      { name: "Xantana", amount: 0.3, unit: "ml" },
+      { name: "Conservante", amount: 0.3, unit: "ml" }, // Corregí "Consevante"
+    ],
+  },
 ];
 
 // Busca en el HTML el elemento donde pondremos la lista de botones.
