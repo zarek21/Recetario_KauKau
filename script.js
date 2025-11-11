@@ -110,6 +110,11 @@ const recipes = [
       { name: "Árbol de té", amount: 0.33, unit: "ml" }, // Puse el acento
       { name: "Agua destilada", amount: 64, unit: "ml" },
       { name: "Conservante", amount: 1, unit: "ml" },
+      { name: "Aceite de rosa mosqueta", amount: 5, unit: "ml" },
+      { name: "Vitamina E", amount: 1, unit: "ml" },
+      { name: "Mica perlada dorada", amount: 1, unit: "gr" },
+      { name: "Centella hidroglicolica", amount: 3, unit: "ml" },
+      { name: "Pantenol", amount: 2, unit: "ml" },
     ],
   },
 
