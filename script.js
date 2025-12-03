@@ -128,6 +128,31 @@ const recipes = [
       { name: "Conservante", amount: 1, unit: "ml" },
     ],
   },
+
+  {
+    id: 9, // Siguiente ID disponible
+    name: "Crema Facial",
+    servings: 1,
+    baseAmount: 57.7, // Suma total aproximada de los gramos
+    ingredients: [
+      // FASE A
+      { name: "[A] Agua Destilada", amount: 39, unit: "gr" },
+      { name: "[A] Glicerina", amount: 1.2, unit: "gr" },
+      { name: "[A] Extracto Té verde", amount: 1.8, unit: "gr" },
+      // FASE B
+      { name: "[B] Jojoba", amount: 4.8, unit: "gr" },
+      { name: "[B] Pepita de uva", amount: 3, unit: "gr" },
+      { name: "[B] Karité", amount: 1.2, unit: "gr" },
+      { name: "[B] Olivem 1000", amount: 3, unit: "gr" },
+      // FASE C
+      { name: "[C] Niacinamida", amount: 1.8, unit: "gr" },
+      { name: "[C] Pantenol", amount: 0.6, unit: "gr" },
+      { name: "[C] Vit. E", amount: 0.3, unit: "gr" },
+      { name: "[C] Conservante", amount: 1, unit: "gr" },
+      { name: "[C] Lavanda", amount: 1, unit: "gota" },
+      { name: "[C] Palmarosa", amount: 1, unit: "gota" },
+    ],
+  },
 ];
 
 // Busca en el HTML el elemento donde pondremos la lista de botones.
